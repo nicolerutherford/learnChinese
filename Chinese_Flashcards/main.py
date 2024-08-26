@@ -53,7 +53,7 @@ canvas_image = canvas.create_image(400, 263, image=card_front)
 canvas.config(bg=BACKGROUND_COLOR, highlightthickness= 0)
 canvas.grid(row=0, column=0, columnspan=2)
 card_title = canvas.create_text(400, 150, text="Title", fill="black", font=SUB_HEADING)
-card_word = canvas.create_text(400, 263, text="Word", fill="black", font=HEADING)
+card_word = canvas.create_text(360, 240, text="Word", fill="black", font=HEADING)
 
 tick_img = PhotoImage(file="images/right.png")
 tick_button = Button(highlightthickness=0, image= tick_img, command = word_is_known)
